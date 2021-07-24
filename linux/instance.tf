@@ -1,8 +1,8 @@
-resource "aws_instance" "Rowie Terraform Linux" {
+resource "aws_instance" "rowie terraform linux" {
   ami           = var.AMIS[var.AWS_REGION]
   instance_type = "t2.micro"
 tags = {
-        Name = "Rowie Terrafrom Linux"
+        Name = "rowie terraform linux"
     }
 
 }
